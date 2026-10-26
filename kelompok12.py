@@ -82,7 +82,7 @@ class ILPHazardSimulator:
 
         return hazards
 
-# --- CONTOH IMPLEMENTASI KASUS HAZARD (RAW, WAR, WAW) ---
+# --- CONTOH KASUS IMPLEMENTASI KASUS HAZARD (RAW, WAR, WAW) ---
 simulator = ILPHazardSimulator()
 
 print("=== SIMULASI KASUS HAZARD ILP ===")
