@@ -104,3 +104,9 @@ detected_hazards = simulator.detect_hazards()
 
 for h in detected_hazards:
     print(f"[{h['type']}] -> {h['cause']}")
+
+# Ringkasan
+print("\n=== RINGKASAN ===")
+for tipe, n in Counter(h['type'] for h in detected_hazards).items():
+    print(f"{tipe}: {n}")
+print(f"Total hazard: {len(detected_hazards)}")
